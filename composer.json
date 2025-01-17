@@ -23,6 +23,11 @@
         "php": "8.3.*",
         "symplify/easy-coding-standard": "^12.5"
     },
+    "require-dev": {
+        "captainhook/captainhook-phar": "^5.24",
+        "captainhook/hook-installer": "^1.0",
+        "ramsey/conventional-commits": "^1.5"
+    },
     "autoload": {
         "psr-4": {
             "MikelGoig\\EasyCodingStandard\\": "src/"
@@ -31,6 +36,10 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
+        "allow-plugins": {
+            "captainhook/captainhook-phar": true,
+            "captainhook/hook-installer": true
+        },
         "sort-packages": true
     }
 }
