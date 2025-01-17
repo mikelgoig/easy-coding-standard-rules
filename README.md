@@ -14,9 +14,9 @@ Created by <a href="https://mikelgoig.com">Mikel Goig</a>.
 
 ---
 
-![Packagist Version](https://img.shields.io/packagist/v/mikelgoig/easy-coding-standard-rules)
-![Packagist Downloads](https://img.shields.io/packagist/dt/mikelgoig/easy-coding-standard-rules)
-![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/mikelgoig/easy-coding-standard-rules/php)
+[![Packagist Version](https://img.shields.io/packagist/v/mikelgoig/easy-coding-standard-rules)](https://packagist.org/packages/mikelgoig/easy-coding-standard-rules)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/mikelgoig/easy-coding-standard-rules)](https://packagist.org/packages/mikelgoig/easy-coding-standard-rules/stats)
+[![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/mikelgoig/easy-coding-standard-rules/php)](https://thephp.foundation)
 
 **This package provides you with
 opinionated [Easy Coding Standard](https://github.com/easy-coding-standard/easy-coding-standard) rules considering
