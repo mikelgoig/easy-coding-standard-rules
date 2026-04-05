@@ -6,7 +6,6 @@ use PhpCsFixer\Fixer\ClassNotation\FinalClassFixer;
 use PhpCsFixer\Fixer\ClassNotation\NoUnneededFinalMethodFixer;
 use PhpCsFixer\Fixer\ClassNotation\ProtectedToPrivateFixer;
 use PhpCsFixer\Fixer\ClassNotation\SelfAccessorFixer;
-use PhpCsFixer\Fixer\ClassNotation\VisibilityRequiredFixer;
 use PhpCsFixer\Fixer\ClassUsage\DateTimeImmutableFixer;
 use PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer;
 use PhpCsFixer\Fixer\Strict\StrictComparisonFixer;
@@ -19,7 +18,6 @@ return ECSConfig::configure()
         NoUnneededFinalMethodFixer::class,
         ProtectedToPrivateFixer::class,
         SelfAccessorFixer::class,
-        VisibilityRequiredFixer::class,
         // immutability
         DateTimeImmutableFixer::class,
         // strict
