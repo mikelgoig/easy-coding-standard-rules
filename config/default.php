@@ -129,7 +129,6 @@ return ECSConfig::configure()
         FullyQualifiedStrictTypesFixer::class,
         NoLeadingImportSlashFixer::class,
         NoUnusedImportsFixer::class,
-        OrderedImportsFixer::class,
         // language construct
         ExplicitIndirectVariableFixer::class,
         FunctionToConstantFixer::class,
@@ -208,6 +207,10 @@ return ECSConfig::configure()
         'import_classes' => false,
         'import_constants' => false,
         'import_functions' => false,
+    ])
+    ->withConfiguredRule(OrderedImportsFixer::class, [
+        'imports_order' => ['class', 'function', 'const'],
+        'sort_algorithm' => 'alpha',
     ])
     // testing
     ->withConfiguredRule(PhpUnitMethodCasingFixer::class, [
