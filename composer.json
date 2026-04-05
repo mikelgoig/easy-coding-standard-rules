@@ -20,13 +20,12 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
-        "symplify/easy-coding-standard": "^12.5"
+        "php": ">=8.3",
+        "symplify/easy-coding-standard": "^13.0"
     },
     "require-dev": {
-        "captainhook/captainhook-phar": "^5.24",
-        "captainhook/hook-installer": "^1.0",
-        "ramsey/conventional-commits": "^1.5"
+        "captainhook/captainhook-phar": "^5.29.2",
+        "ramsey/conventional-commits": "^1.7.0"
     },
     "autoload": {
         "psr-4": {
@@ -37,8 +36,7 @@
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
-            "captainhook/captainhook-phar": true,
-            "captainhook/hook-installer": true
+            "captainhook/captainhook-phar": true
         },
         "sort-packages": true
     }
